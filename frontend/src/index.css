@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+   font-family: 'Open Sans',serif;
+}
+/* body{
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+} */
+.header-text{
+  color:white;
+  font-weight: 500;
+  margin-top: 17px;
+  font-size: 17px;
+}
+.top-left{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.tag-card {
+  margin: 10px 0 0 20px;
+  color: #806a78;
+}
+.blogName {
+  color: "#F48FB1";
+  font-size: 18px;
+  margin: 0 0 0 4px;
+  font-weight: 500;
+}
+
+.loader {
+  position: fixed;
+  z-index: 1031;
+  top: 50%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+}
+.tagErrMsg {
+  color: #f93154;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 14px;
+}

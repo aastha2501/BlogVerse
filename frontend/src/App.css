@@ -1,0 +1,49 @@
+/* Header.js */
+@import url(https://fonts.googleapis.com/css?family=Trirong);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  /* background-color:#fae0fa !important; */
+}
+.brandName {
+  font-family: "Trirong", serif;
+}
+.navbarItem{
+  font-family: 'Open Sans',serif;
+}
+.searchBar {
+  font-size: 14px;
+  padding: 0 10px;
+  font-family: 'Open Sans',serif;
+}
+
+/* login.js */
+
+/* .form-control:focus {
+  border-color: #28a745 !important;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 0.25) !important;
+} */
+/* .form-control:focus{
+  box-shadow: none !important;
+  border-color: none !important;
+} */
+
+.form-control:focus ~ .form-notch div {
+  border-color: #7F167F !important;
+}
+
+.form-control:focus ~ .form-label {
+  color: #7F167F !important;
+}
+
+/* footer.js */
+.footer{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7F167F;
+  color: white;
+  text-align: center;
+}
